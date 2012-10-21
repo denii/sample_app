@@ -22,3 +22,10 @@ end
 group :development, :test do
   gem 'sqlite3'
 end
+
+group :test, :development do
+  gem "rspec-rails"
+  gem "autotest"
+  gem "spork"
+  gem "webrat"
+end
